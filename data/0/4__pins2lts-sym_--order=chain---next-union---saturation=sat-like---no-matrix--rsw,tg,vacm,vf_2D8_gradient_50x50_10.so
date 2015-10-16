@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/2D8_gradient_50x50_10.so
+pins2lts-sym, 0.004: library has no initializer
+pins2lts-sym, 0.004: loading model PNML
+pins2lts-sym, 3.260: completed loading model PNML
+pins2lts-sym, 3.260: Initializing regrouping layer
+pins2lts-sym, 4.106: Regroup specification: sw,tg,vacm,vf
+pins2lts-sym, 4.106: Regroup Select Write matrix
+pins2lts-sym, 4.106: Regroup Total graph
+pins2lts-sym, 4.106: Regroup ViennaCL's Advanced Cuthill McKee
+pins2lts-sym, 507.452: Reqroup Vertical Flip
+pins2lts-sym, 507.469: Regrouping: 19404->19404 groups
+pins2lts-sym, 509.351: Regrouping took 506.090 real 499.120 user 5.050 sys
+pins2lts-sym, 509.351: state vector length is 2500; there are 19404 groups and 2500 guards
+pins2lts-sym, 509.351: Creating a multi-core ListDD domain.
+pins2lts-sym, 524.320: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 524.321: got initial state
+pins2lts-sym, 528.044: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1218.123: Exploration took 231242 group checks and 231242 next state calls
+pins2lts-sym, 1218.123: reachability took 693.800 real 689.130 user 1.840 sys
+pins2lts-sym, 1218.123: counting visited states...
+pins2lts-sym, 1218.184: counting took 0.060 real 0.060 user 0.000 sys
+pins2lts-sym, 1218.184: state space has 2.6757434520944e+27 states, 164890 nodes
+pins2lts-sym, 1218.233: group_next: 1649340 nodes total
+pins2lts-sym, 1218.233: group_explored: 1494108 nodes, 1280664 short vectors total
+pnml: max token count: 10
+Exit [0]
+1206.30 user, 7.17 system, 1218.38 elapsed -- Max VSize = 6949032KB, Max RSS = 4202352KB

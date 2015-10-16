@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.001: opening /home/meijerjjg/experiments/in/pnml/Philosophers-5000.so
+pins2lts-sym, 0.013: library has no initializer
+pins2lts-sym, 0.013: loading model PNML
+pins2lts-sym, 13.587: completed loading model PNML
+pins2lts-sym, 13.588: Initializing regrouping layer
+pins2lts-sym, 25.609: Regroup specification: sw,bg,vacm,hf
+pins2lts-sym, 25.609: Regroup Select Write matrix
+pins2lts-sym, 25.609: Regroup Bipartite Graph
+pins2lts-sym, 25.609: Regroup ViennaCL's Advanced Cuthill McKee
+pins2lts-sym, 219.306: Reqroup Horizontal Flip
+pins2lts-sym, 219.537: Regrouping: 25000->25000 groups
+pins2lts-sym, 245.517: Regrouping took 231.930 real 215.100 user 3.850 sys
+pins2lts-sym, 245.517: state vector length is 25000; there are 25000 groups and 25000 guards
+pins2lts-sym, 245.517: Creating a multi-core ListDD domain.
+pins2lts-sym, 502.914: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 502.927: got initial state
+pins2lts-sym, 517.641: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1506.761: Exploration took 75000 group checks and 75000 next state calls
+pins2lts-sym, 1506.761: reachability took 1003.830 real 927.630 user 4.060 sys
+pins2lts-sym, 1506.761: counting visited states...
+pins2lts-sym, 1506.932: counting took 0.170 real 0.170 user 0.000 sys
+pins2lts-sym, 1506.932: state space has 4.03899762978715533e+2385 states, 159977 nodes
+pins2lts-sym, 1506.938: group_next: 160000 nodes total
+pins2lts-sym, 1506.938: group_explored: 220001 nodes, 140000 short vectors total
+pnml: max token count: 1
+Exit [0]
+1396.10 user, 8.76 system, 1507.40 elapsed -- Max VSize = 10336652KB, Max RSS = 7722872KB

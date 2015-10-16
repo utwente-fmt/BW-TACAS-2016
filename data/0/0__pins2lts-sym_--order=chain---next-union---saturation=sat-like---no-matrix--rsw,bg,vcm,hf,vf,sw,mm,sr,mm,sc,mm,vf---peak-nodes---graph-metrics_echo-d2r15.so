@@ -1,0 +1,39 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/echo-d2r15.so
+pins2lts-sym, 0.003: library has no initializer
+pins2lts-sym, 0.003: loading model PNML
+pins2lts-sym, 0.130: completed loading model PNML
+pins2lts-sym, 0.130: Initializing regrouping layer
+pins2lts-sym, 0.195: Regroup specification: sw,bg,vcm,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 0.195: Regroup Select Write matrix
+pins2lts-sym, 0.195: Regroup Bipartite Graph
+pins2lts-sym, 0.195: Regroup ViennaCL's Cuthill McKee
+pins2lts-sym, 0.724: bandwidth: 282
+pins2lts-sym, 0.724: profile: 703174
+pins2lts-sym, 0.724: span: 895770
+pins2lts-sym, 0.725: average wavefront: 177.4
+pins2lts-sym, 0.725: RMS wavefront: 188.1
+pins2lts-sym, 0.728: Reqroup Horizontal Flip
+pins2lts-sym, 0.729: Reqroup Vertical Flip
+pins2lts-sym, 0.730: Regroup Select Write matrix
+pins2lts-sym, 0.730: Regroup Matrix Metrics
+pins2lts-sym, 0.750: Regroup Select Read matrix
+pins2lts-sym, 0.750: Regroup Matrix Metrics
+pins2lts-sym, 0.769: Regroup Select Combined matrix
+pins2lts-sym, 0.791: Regroup Matrix Metrics
+pins2lts-sym, 0.791: Reqroup Vertical Flip
+pins2lts-sym, 0.792: Regrouping: 1674->1674 groups
+pins2lts-sym, 0.937: Regrouping took 0.800 real 0.790 user 0.020 sys
+pins2lts-sym, 0.937: state vector length is 2127; there are 1674 groups and 2127 guards
+pins2lts-sym, 0.937: Creating a multi-core ListDD domain.
+pins2lts-sym, 2.519: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 2.520: got initial state
+pins2lts-sym, 3.841: vrel_add_act not supported; falling back to vrel_add_cpy
+Killed [24]
+1796.38 user, 1.44 system, 1802.56 elapsed -- Max VSize = 6607076KB, Max RSS = 3399256KB

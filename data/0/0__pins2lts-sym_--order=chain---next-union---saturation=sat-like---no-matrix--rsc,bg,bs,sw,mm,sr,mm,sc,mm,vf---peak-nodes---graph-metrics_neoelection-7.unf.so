@@ -1,0 +1,32 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/neoelection-7.unf.so
+pins2lts-sym, 0.017: library has no initializer
+pins2lts-sym, 0.017: loading model PNML
+pins2lts-sym, 9.187: completed loading model PNML
+pins2lts-sym, 9.188: Initializing regrouping layer
+pins2lts-sym, 10.968: Regroup specification: sc,bg,bs,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 10.968: Regroup Select Combined matrix
+pins2lts-sym, 11.592: Regroup Bipartite Graph
+pins2lts-sym, 11.592: Regroup Boost's Sloan
+pins2lts-sym, 18.049: bandwidth: 21065
+pins2lts-sym, 18.061: profile: 89553561
+pins2lts-sym, 18.113: span: 63885339
+pins2lts-sym, 72.987: average wavefront: 248.57
+pins2lts-sym, 129.280: RMS wavefront: 323.85
+*** segmentation fault ***
+
+Please send information on how to reproduce this problem to: 
+         ltsmin-support@lists.utwente.nl
+along with all output preceding this message.
+In addition, include the following information:
+Package: ltsmin 2.1
+Stack trace:
+Killed [11]
+126.99 user, 0.13 system, 129.39 elapsed -- Max VSize = 2892596KB, Max RSS = 273108KB
+/home/meijerjjg/.local/bin/memtime: child died with signal 11, aborting.

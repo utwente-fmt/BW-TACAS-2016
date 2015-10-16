@@ -1,0 +1,69 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/2D8_gradient_5x5_50.so
+pins2lts-sym, 0.003: library has no initializer
+pins2lts-sym, 0.003: loading model PNML
+pins2lts-sym, 0.003: completed loading model PNML
+pins2lts-sym, 0.004: Initializing regrouping layer
+pins2lts-sym, 0.004: Regroup specification: sw,mm,sr,mm,sc,mm
+pins2lts-sym, 0.004: Regroup Select Write matrix
+pins2lts-sym, 0.004: Regroup Matrix Metrics
+pins2lts-sym, 0.004: Regroup Select Read matrix
+pins2lts-sym, 0.004: Regroup Matrix Metrics
+pins2lts-sym, 0.004: Regroup Select Combined matrix
+pins2lts-sym, 0.004: Regroup Matrix Metrics
+pins2lts-sym, 0.004: Regrouping: 144->144 groups
+pins2lts-sym, 0.004: Regrouping took 0.000 real 0.000 user 0.000 sys
+pins2lts-sym, 0.004: state vector length is 25; there are 144 groups and 25 guards
+pins2lts-sym, 0.004: Creating a multi-core ListDD domain.
+pins2lts-sym, 0.174: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 0.201: got initial state
+pins2lts-sym, 0.605: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 393.359: Exploration took 3382 group checks and 3382 next state calls
+pins2lts-sym, 393.359: reachability took 393.160 real 386.550 user 2.660 sys
+pins2lts-sym, 393.359: counting visited states...
+pins2lts-sym, 393.361: counting took 0.000 real 0.000 user 0.000 sys
+pins2lts-sym, 393.361: state space has 1.75295157137163e+19 states, 30600 nodes
+pins2lts-sym, 393.361: ( 30600 final BDD nodes; 829645 peak nodes )
+pins2lts-sym, 393.370: group_next: 205200 nodes total
+pins2lts-sym, 393.370: group_explored: 198288 nodes, 190944 short vectors total
+[01;31m****************
+* [0m[1mSYLVAN STATS[0m[01;31m *
+****************
+
+[0m[4mBDD operations count (cache reuse, cache put)
+[0m[01;34m
+[0m[4mLDD operations count (cache reuse)
+[0m[01;34mUnion: 356468096 (261611264)
+RelProd: 51889286 (9664700)
+SatCount: 46330633 (22923347)
+SatCountL: 5442 (2641)
+RelProdUnion: 1088497192 (432878959)
+ProjectMinus: 300116440 (218034964)
+LDD Nodes created: 118625765
+LDD Nodes reused: 461136535
+
+[0m[4mGarbage collection
+[0m[01;34mNumber of GC executions: 2
+Total time spent: 0.816807 sec.
+
+BDD Unique table: 5346451 of 67108864 buckets filled.
+Operation cache: 30280949 of 67108864 buckets filled.
+[01;31m****************[0m 
+pnml: max token count: 50
+Event Span: 704
+Normalized Event Span: 0.196
+Weighted Event Span, moment 1 (WES^1): 0.24
+Event Span: 704
+Normalized Event Span: 0.196
+Weighted Event Span, moment 1 (WES^1): 0.24
+Event Span: 704
+Normalized Event Span: 0.196
+Weighted Event Span, moment 1 (WES^1): 0.24
+Exit [0]
+387.06 user, 2.79 system, 394.02 elapsed -- Max VSize = 6600848KB, Max RSS = 3941540KB

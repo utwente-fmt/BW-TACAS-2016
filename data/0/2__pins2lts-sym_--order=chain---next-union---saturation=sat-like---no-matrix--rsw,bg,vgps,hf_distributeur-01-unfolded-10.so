@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/distributeur-01-unfolded-10.so
+pins2lts-sym, 0.308: library has no initializer
+pins2lts-sym, 0.309: loading model PNML
+pins2lts-sym, 1091.923: completed loading model PNML
+pins2lts-sym, 1091.924: Initializing regrouping layer
+pins2lts-sym, 1092.191: Regroup specification: sw,bg,vgps,hf
+pins2lts-sym, 1092.191: Regroup Select Write matrix
+pins2lts-sym, 1092.191: Regroup Bipartite Graph
+pins2lts-sym, 1092.191: Regroup ViennaCL's Gibbs Poole Stockmeyer
+pins2lts-sym, 1139.737: Reqroup Horizontal Flip
+pins2lts-sym, 1139.747: Regrouping: 111160->111160 groups
+pins2lts-sym, 1140.458: Regrouping took 48.540 real 47.250 user 0.280 sys
+pins2lts-sym, 1140.458: state vector length is 120; there are 111160 groups and 120 guards
+pins2lts-sym, 1140.458: Creating a multi-core ListDD domain.
+pins2lts-sym, 1147.326: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 1147.326: got initial state
+pins2lts-sym, 1148.245: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1542.666: Exploration took 1136127 group checks and 1136127 next state calls
+pins2lts-sym, 1543.728: reachability took 395.860 real 381.500 user 1.160 sys
+pins2lts-sym, 1543.728: counting visited states...
+pins2lts-sym, 1547.106: counting took 3.380 real 0.000 user 0.000 sys
+pins2lts-sym, 1547.106: state space has 1.15292150460685e+18 states, 240 nodes
+pins2lts-sym, 1547.163: group_next: 1597040 nodes total
+pins2lts-sym, 1547.163: group_explored: 2053040 nodes, 2904520 short vectors total
+pnml: max token count: 1
+Exit [0]
+1497.97 user, 2.58 system, 1547.92 elapsed -- Max VSize = 9761556KB, Max RSS = 6254540KB

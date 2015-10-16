@@ -1,0 +1,43 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/railroad-020-pt.so
+pins2lts-sym, 0.022: library has no initializer
+pins2lts-sym, 0.022: loading model PNML
+pins2lts-sym, 0.054: completed loading model PNML
+pins2lts-sym, 0.054: Initializing regrouping layer
+pins2lts-sym, 0.056: Regroup specification: sc,bg,vgps,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 0.056: Regroup Select Combined matrix
+pins2lts-sym, 0.057: Regroup Bipartite Graph
+pins2lts-sym, 0.057: Regroup ViennaCL's Gibbs Poole Stockmeyer
+pins2lts-sym, 0.080: bandwidth: 0
+pins2lts-sym, 0.080: profile: 1
+pins2lts-sym, 0.080: span: 1
+pins2lts-sym, 0.080: average wavefront: 1
+pins2lts-sym, 0.080: RMS wavefront: 1
+*** segmentation fault ***
+
+Please send information on how to reproduce this problem to: 
+         ltsmin-support@lists.utwente.nl
+along with all output preceding this message.
+In addition, include the following information:
+Package: ltsmin 2.1
+Stack trace:
+  0: /home/meijerjjg/.local/stats/bin/pins2lts-sym(HREprintStack+0x1a) [0x44839a]
+  1: /home/meijerjjg/.local/stats/bin/pins2lts-sym() [0x448416]
+  2: /lib/x86_64-linux-gnu/libpthread.so.0(+0x10340) [0x7f14275e0340]
+  3: /home/meijerjjg/.local/stats/bin/pins2lts-sym(dm_create_permutation_groups+0x8a) [0x4822ca]
+  4: /home/meijerjjg/.local/stats/bin/pins2lts-sym() [0x455007]
+  5: /home/meijerjjg/.local/stats/bin/pins2lts-sym() [0x456778]
+  6: /home/meijerjjg/.local/stats/bin/pins2lts-sym(GBregroup+0x1195) [0x4584f5]
+  7: /home/meijerjjg/.local/stats/bin/pins2lts-sym(GBwrapModel+0x26) [0x452f06]
+  8: /home/meijerjjg/.local/stats/bin/pins2lts-sym(actual_main_CALL+0x19f) [0x43a40f]
+  9: /home/meijerjjg/.local/stats/bin/pins2lts-sym() [0x4d3a97]
+ 10: /lib/x86_64-linux-gnu/libpthread.so.0(+0x8182) [0x7f14275d8182]
+ 11: /lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f1426ada47d]
+Exit [255]
+0.03 user, 0.00 system, 0.10 elapsed -- Max VSize = 4196KB, Max RSS = 88KB

@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/2D8_gradient_50x50_10.so
+pins2lts-sym, 0.016: library has no initializer
+pins2lts-sym, 0.016: loading model PNML
+pins2lts-sym, 3.467: completed loading model PNML
+pins2lts-sym, 3.467: Initializing regrouping layer
+pins2lts-sym, 4.328: Regroup specification: sc,tg,vgps,hf
+pins2lts-sym, 4.328: Regroup Select Combined matrix
+pins2lts-sym, 4.615: Regroup Total graph
+pins2lts-sym, 4.615: Regroup ViennaCL's Gibbs Poole Stockmeyer
+pins2lts-sym, 20.532: Reqroup Horizontal Flip
+pins2lts-sym, 20.550: Regrouping: 19404->19404 groups
+pins2lts-sym, 22.470: Regrouping took 19.000 real 18.480 user 0.230 sys
+pins2lts-sym, 22.470: state vector length is 2500; there are 19404 groups and 2500 guards
+pins2lts-sym, 22.470: Creating a multi-core ListDD domain.
+pins2lts-sym, 37.333: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 37.334: got initial state
+pins2lts-sym, 41.210: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 819.242: Exploration took 230458 group checks and 230458 next state calls
+pins2lts-sym, 819.242: reachability took 781.910 real 763.510 user 2.110 sys
+pins2lts-sym, 819.242: counting visited states...
+pins2lts-sym, 819.301: counting took 0.060 real 0.060 user 0.000 sys
+pins2lts-sym, 819.301: state space has 2.6757434520944e+27 states, 164890 nodes
+pins2lts-sym, 819.354: group_next: 1649340 nodes total
+pins2lts-sym, 819.354: group_explored: 1494108 nodes, 1280664 short vectors total
+pnml: max token count: 10
+Exit [0]
+799.54 user, 2.65 system, 819.51 elapsed -- Max VSize = 6949032KB, Max RSS = 4224928KB

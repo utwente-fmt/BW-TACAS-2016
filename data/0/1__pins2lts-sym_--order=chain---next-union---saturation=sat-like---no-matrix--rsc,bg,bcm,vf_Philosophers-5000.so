@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/Philosophers-5000.so
+pins2lts-sym, 0.006: library has no initializer
+pins2lts-sym, 0.006: loading model PNML
+pins2lts-sym, 12.729: completed loading model PNML
+pins2lts-sym, 12.730: Initializing regrouping layer
+pins2lts-sym, 23.620: Regroup specification: sc,bg,bcm,vf
+pins2lts-sym, 23.620: Regroup Select Combined matrix
+pins2lts-sym, 27.347: Regroup Bipartite Graph
+pins2lts-sym, 27.347: Regroup Boost's Cuthill McKee
+pins2lts-sym, 31.560: Reqroup Vertical Flip
+pins2lts-sym, 31.765: Regrouping: 25000->25000 groups
+pins2lts-sym, 56.587: Regrouping took 43.860 real 42.050 user 1.600 sys
+pins2lts-sym, 56.587: state vector length is 25000; there are 25000 groups and 25000 guards
+pins2lts-sym, 56.587: Creating a multi-core ListDD domain.
+pins2lts-sym, 291.004: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 291.011: got initial state
+pins2lts-sym, 304.693: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1110.467: Exploration took 75000 group checks and 75000 next state calls
+pins2lts-sym, 1110.467: reachability took 819.460 real 810.260 user 6.580 sys
+pins2lts-sym, 1110.467: counting visited states...
+pins2lts-sym, 1110.616: counting took 0.150 real 0.150 user 0.000 sys
+pins2lts-sym, 1110.616: state space has 4.03899762978715533e+2385 states, 159977 nodes
+pins2lts-sym, 1110.623: group_next: 160000 nodes total
+pins2lts-sym, 1110.623: group_explored: 220001 nodes, 140000 short vectors total
+pnml: max token count: 1
+Exit [0]
+1098.33 user, 9.04 system, 1111.07 elapsed -- Max VSize = 10336648KB, Max RSS = 7721976KB

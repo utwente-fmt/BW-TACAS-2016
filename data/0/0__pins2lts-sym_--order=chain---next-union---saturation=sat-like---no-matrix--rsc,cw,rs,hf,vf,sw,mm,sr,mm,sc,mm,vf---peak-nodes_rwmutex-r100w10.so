@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/rwmutex-r100w10.so
+pins2lts-sym, 0.018: library has no initializer
+pins2lts-sym, 0.018: loading model PNML
+pins2lts-sym, 0.021: completed loading model PNML
+pins2lts-sym, 0.021: Initializing regrouping layer
+pins2lts-sym, 0.023: Regroup specification: sc,cw,rs,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 0.023: Regroup Select Combined matrix
+pins2lts-sym, 0.023: Regroup Column sWaps
+pins2lts-sym, 76.352: Regroup Row Sort
+pins2lts-sym, 76.356: Reqroup Horizontal Flip
+pins2lts-sym, 76.356: Reqroup Vertical Flip
+pins2lts-sym, 76.356: Regroup Select Write matrix
+pins2lts-sym, 76.356: Regroup Matrix Metrics
+pins2lts-sym, 76.365: Regroup Select Read matrix
+pins2lts-sym, 76.365: Regroup Matrix Metrics
+pins2lts-sym, 76.366: Regroup Select Combined matrix
+pins2lts-sym, 76.366: Regroup Matrix Metrics
+pins2lts-sym, 76.366: Reqroup Vertical Flip
+pins2lts-sym, 76.366: Regrouping: 220->220 groups
+pins2lts-sym, 76.369: Regrouping took 76.350 real 69.530 user 0.000 sys
+pins2lts-sym, 76.369: state vector length is 320; there are 220 groups and 320 guards
+pins2lts-sym, 76.369: Creating a multi-core ListDD domain.
+pins2lts-sym, 76.557: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 76.558: got initial state
+pins2lts-sym, 76.957: vrel_add_act not supported; falling back to vrel_add_cpy
+Killed [24]
+1795.38 user, 1.16 system, 1942.47 elapsed -- Max VSize = 6600888KB, Max RSS = 2894052KB

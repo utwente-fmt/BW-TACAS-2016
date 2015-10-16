@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/2D8_gradient_40x40_10.so
+pins2lts-sym, 0.004: library has no initializer
+pins2lts-sym, 0.004: loading model PNML
+pins2lts-sym, 1.514: completed loading model PNML
+pins2lts-sym, 1.514: Initializing regrouping layer
+pins2lts-sym, 1.866: Regroup specification: sc,bg,vacm,vf
+pins2lts-sym, 1.866: Regroup Select Combined matrix
+pins2lts-sym, 1.983: Regroup Bipartite Graph
+pins2lts-sym, 1.983: Regroup ViennaCL's Advanced Cuthill McKee
+pins2lts-sym, 33.155: Reqroup Vertical Flip
+pins2lts-sym, 33.163: Regrouping: 12324->12324 groups
+pins2lts-sym, 34.011: Regrouping took 32.500 real 32.110 user 0.080 sys
+pins2lts-sym, 34.011: state vector length is 1600; there are 12324 groups and 1600 guards
+pins2lts-sym, 34.011: Creating a multi-core ListDD domain.
+pins2lts-sym, 39.729: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 39.730: got initial state
+pins2lts-sym, 41.690: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 348.743: Exploration took 136568 group checks and 136568 next state calls
+pins2lts-sym, 348.743: reachability took 309.020 real 306.440 user 0.860 sys
+pins2lts-sym, 348.743: counting visited states...
+pins2lts-sym, 348.777: counting took 0.030 real 0.030 user 0.000 sys
+pins2lts-sym, 348.777: state space has 3.11621362935612e+25 states, 105490 nodes
+pins2lts-sym, 348.810: group_next: 1047540 nodes total
+pins2lts-sym, 348.810: group_explored: 948948 nodes, 813384 short vectors total
+pnml: max token count: 10
+Exit [0]
+345.50 user, 1.25 system, 348.97 elapsed -- Max VSize = 6728252KB, Max RSS = 3654436KB

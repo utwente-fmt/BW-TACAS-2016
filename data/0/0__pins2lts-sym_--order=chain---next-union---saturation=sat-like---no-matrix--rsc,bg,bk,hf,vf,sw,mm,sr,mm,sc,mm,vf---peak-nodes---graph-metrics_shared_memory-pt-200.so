@@ -1,0 +1,53 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/shared_memory-pt-200.so
+pins2lts-sym, 0.220: library has no initializer
+pins2lts-sym, 0.220: loading model PNML
+pins2lts-sym, 188.244: completed loading model PNML
+pins2lts-sym, 188.245: Initializing regrouping layer
+pins2lts-sym, 246.370: Regroup specification: sc,bg,bk,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 246.370: Regroup Select Combined matrix
+pins2lts-sym, 265.380: Regroup Bipartite Graph
+pins2lts-sym, 265.380: Regroup Boost's King
+pins2lts-sym, 287.402: bandwidth: 80180
+pins2lts-sym, 287.412: profile: 8526142094
+pins2lts-sym, 287.542: span: 9111216507
+pins2lts-sym, 846.190: average wavefront: 39932.6
+pins2lts-sym, 1353.769: RMS wavefront: 46201.1
+pins2lts-sym, 1355.705: Reqroup Horizontal Flip
+pins2lts-sym, 1356.668: Reqroup Vertical Flip
+pins2lts-sym, 1357.443: Regroup Select Write matrix
+pins2lts-sym, 1357.443: Regroup Matrix Metrics
+pins2lts-sym, 1376.496: Regroup Select Read matrix
+pins2lts-sym, 1376.496: Regroup Matrix Metrics
+pins2lts-sym, 1396.887: Regroup Select Combined matrix
+pins2lts-sym, 1396.887: Regroup Matrix Metrics
+pins2lts-sym, 1430.666: Reqroup Vertical Flip
+pins2lts-sym, 1431.638: Regrouping: 80200->80200 groups
+*** segmentation fault ***
+
+Please send information on how to reproduce this problem to: 
+         ltsmin-support@lists.utwente.nl
+along with all output preceding this message.
+In addition, include the following information:
+Package: ltsmin 2.1
+Stack trace:
+  0: /home/meijerjjg/.local/stats/bin/pins2lts-sym(HREprintStack+0x1a) [0x44839a]
+  1: /home/meijerjjg/.local/stats/bin/pins2lts-sym() [0x448416]
+  2: /lib/x86_64-linux-gnu/libpthread.so.0(+0x10340) [0x7f1d1e598340]
+  3: /home/meijerjjg/.local/stats/bin/pins2lts-sym(bitvector_is_set+0x19) [0x481309]
+  4: /home/meijerjjg/.local/stats/bin/pins2lts-sym(dm_set+0x66) [0x481c56]
+  5: /home/meijerjjg/.local/stats/bin/pins2lts-sym(dm_apply_or+0x56) [0x483e26]
+  6: /home/meijerjjg/.local/stats/bin/pins2lts-sym(GBregroup+0xebe) [0x45821e]
+  7: /home/meijerjjg/.local/stats/bin/pins2lts-sym(GBwrapModel+0x26) [0x452f06]
+  8: /home/meijerjjg/.local/stats/bin/pins2lts-sym(actual_main_CALL+0x19f) [0x43a40f]
+  9: /home/meijerjjg/.local/stats/bin/pins2lts-sym() [0x4d3a97]
+ 10: /lib/x86_64-linux-gnu/libpthread.so.0(+0x8182) [0x7f1d1e590182]
+ 11: /lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f1d1da9247d]
+Exit [255]
+1452.05 user, 17.17 system, 1832.56 elapsed -- Max VSize = 21183440KB, Max RSS = 14711464KB

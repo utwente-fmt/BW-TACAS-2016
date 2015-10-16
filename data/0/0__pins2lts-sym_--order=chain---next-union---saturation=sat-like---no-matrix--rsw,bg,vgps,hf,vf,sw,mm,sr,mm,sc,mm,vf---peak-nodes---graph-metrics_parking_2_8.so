@@ -1,0 +1,49 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/parking_2_8.so
+pins2lts-sym, 0.028: library has no initializer
+pins2lts-sym, 0.028: loading model PNML
+pins2lts-sym, 0.029: completed loading model PNML
+pins2lts-sym, 0.029: Initializing regrouping layer
+pins2lts-sym, 0.030: Regroup specification: sw,bg,vgps,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 0.030: Regroup Select Write matrix
+pins2lts-sym, 0.030: Regroup Bipartite Graph
+pins2lts-sym, 0.030: Regroup ViennaCL's Gibbs Poole Stockmeyer
+pins2lts-sym, 0.033: bandwidth: 134
+pins2lts-sym, 0.034: profile: 28570
+pins2lts-sym, 0.034: span: 34345
+pins2lts-sym, 0.034: average wavefront: 67.3
+pins2lts-sym, 0.034: RMS wavefront: 78.8
+pins2lts-sym, 0.034: Reqroup Horizontal Flip
+pins2lts-sym, 0.034: Reqroup Vertical Flip
+pins2lts-sym, 0.034: Regroup Select Write matrix
+pins2lts-sym, 0.034: Regroup Matrix Metrics
+pins2lts-sym, 0.038: Regroup Select Read matrix
+pins2lts-sym, 0.038: Regroup Matrix Metrics
+pins2lts-sym, 0.038: Regroup Select Combined matrix
+pins2lts-sym, 0.038: Regroup Matrix Metrics
+pins2lts-sym, 0.038: Reqroup Vertical Flip
+pins2lts-sym, 0.038: Regrouping: 201->201 groups
+pins2lts-sym, 0.039: Regrouping took 0.010 real 0.000 user 0.000 sys
+pins2lts-sym, 0.039: state vector length is 137; there are 201 groups and 137 guards
+pins2lts-sym, 0.039: Creating a multi-core ListDD domain.
+pins2lts-sym, 0.308: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 0.308: got initial state
+pins2lts-sym, 1.136: vrel_add_act not supported; falling back to vrel_add_cpy
+MDD Unique table full, 60766809 of 67108864 buckets filled!
+Event Span: 7830
+Normalized Event Span: 0.2843
+Weighted Event Span, moment 1 (WES^1): 0.399
+Event Span: 2500
+Normalized Event Span: 0.09079
+Weighted Event Span, moment 1 (WES^1): 0.126
+Event Span: 15832
+Normalized Event Span: 0.57494
+Weighted Event Span, moment 1 (WES^1): 0.954
+Exit [1]
+242.49 user, 3.04 system, 248.44 elapsed -- Max VSize = 6600864KB, Max RSS = 3849088KB

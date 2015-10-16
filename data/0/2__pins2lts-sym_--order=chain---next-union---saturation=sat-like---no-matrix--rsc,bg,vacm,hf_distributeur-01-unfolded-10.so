@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/distributeur-01-unfolded-10.so
+pins2lts-sym, 0.012: library has no initializer
+pins2lts-sym, 0.012: loading model PNML
+pins2lts-sym, 1099.025: completed loading model PNML
+pins2lts-sym, 1099.025: Initializing regrouping layer
+pins2lts-sym, 1099.292: Regroup specification: sc,bg,vacm,hf
+pins2lts-sym, 1099.292: Regroup Select Combined matrix
+pins2lts-sym, 1099.389: Regroup Bipartite Graph
+pins2lts-sym, 1099.389: Regroup ViennaCL's Advanced Cuthill McKee
+pins2lts-sym, 1123.915: Reqroup Horizontal Flip
+pins2lts-sym, 1123.925: Regrouping: 111160->111160 groups
+pins2lts-sym, 1124.618: Regrouping took 25.590 real 24.820 user 0.460 sys
+pins2lts-sym, 1124.618: state vector length is 120; there are 111160 groups and 120 guards
+pins2lts-sym, 1124.618: Creating a multi-core ListDD domain.
+pins2lts-sym, 1129.278: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 1129.278: got initial state
+pins2lts-sym, 1130.196: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1220.302: Exploration took 654858 group checks and 654858 next state calls
+pins2lts-sym, 1220.302: reachability took 91.030 real 89.110 user 0.840 sys
+pins2lts-sym, 1220.302: counting visited states...
+pins2lts-sym, 1220.302: counting took 0.000 real 0.000 user 0.000 sys
+pins2lts-sym, 1220.302: state space has 1.15292150460685e+18 states, 240 nodes
+pins2lts-sym, 1220.354: group_next: 1597040 nodes total
+pins2lts-sym, 1220.354: group_explored: 2053040 nodes, 2904520 short vectors total
+pnml: max token count: 1
+Exit [0]
+1209.10 user, 2.60 system, 1220.44 elapsed -- Max VSize = 9761044KB, Max RSS = 6183172KB

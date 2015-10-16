@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/galloc_res-5.so
+pins2lts-sym, 0.006: library has no initializer
+pins2lts-sym, 0.006: loading model PNML
+pins2lts-sym, 272.358: completed loading model PNML
+pins2lts-sym, 272.358: Initializing regrouping layer
+pins2lts-sym, 272.451: Regroup specification: sw,bg,vgps,vf
+pins2lts-sym, 272.451: Regroup Select Write matrix
+pins2lts-sym, 272.451: Regroup Bipartite Graph
+pins2lts-sym, 272.451: Regroup ViennaCL's Gibbs Poole Stockmeyer
+pins2lts-sym, 278.550: Reqroup Vertical Flip
+pins2lts-sym, 278.552: Regrouping: 56105->56105 groups
+pins2lts-sym, 278.784: Regrouping took 6.430 real 6.280 user 0.100 sys
+pins2lts-sym, 278.784: state vector length is 75; there are 56105 groups and 75 guards
+pins2lts-sym, 278.784: Creating a multi-core ListDD domain.
+pins2lts-sym, 280.600: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 280.600: got initial state
+pins2lts-sym, 281.031: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1162.041: Exploration took 322809 group checks and 322809 next state calls
+pins2lts-sym, 1162.041: reachability took 881.440 real 876.480 user 0.820 sys
+pins2lts-sym, 1162.041: counting visited states...
+pins2lts-sym, 1162.132: counting took 0.090 real 0.090 user 0.000 sys
+pins2lts-sym, 1162.132: state space has 106603672 states, 284041 nodes
+pins2lts-sym, 1162.238: group_next: 586946 nodes total
+pins2lts-sym, 1162.238: group_explored: 5494572 nodes, 11047830 short vectors total
+pnml: max token count: 4
+Exit [0]
+1154.69 user, 1.37 system, 1162.33 elapsed -- Max VSize = 7405636KB, Max RSS = 3791260KB

@@ -1,0 +1,49 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.001: opening /home/meijerjjg/experiments/in/pnml/dekker-100.so
+pins2lts-sym, 0.021: library has no initializer
+pins2lts-sym, 0.021: loading model PNML
+pins2lts-sym, 5.755: completed loading model PNML
+pins2lts-sym, 5.755: Initializing regrouping layer
+pins2lts-sym, 5.845: Regroup specification: sc,tg,vacm,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 5.845: Regroup Select Combined matrix
+pins2lts-sym, 5.876: Regroup Total graph
+pins2lts-sym, 5.876: Regroup ViennaCL's Advanced Cuthill McKee
+pins2lts-sym, 758.718: bandwidth: 50095
+pins2lts-sym, 758.718: profile: 2368177929
+pins2lts-sym, 758.718: span: 2907057524
+pins2lts-sym, 758.718: average wavefront: 25090
+pins2lts-sym, 758.718: RMS wavefront: 28551
+pins2lts-sym, 758.883: Reqroup Horizontal Flip
+pins2lts-sym, 758.885: Reqroup Vertical Flip
+pins2lts-sym, 758.886: Regroup Select Write matrix
+pins2lts-sym, 758.886: Regroup Matrix Metrics
+pins2lts-sym, 758.908: Regroup Select Read matrix
+pins2lts-sym, 758.908: Regroup Matrix Metrics
+pins2lts-sym, 758.921: Regroup Select Combined matrix
+pins2lts-sym, 758.921: Regroup Matrix Metrics
+pins2lts-sym, 758.942: Reqroup Vertical Flip
+pins2lts-sym, 758.944: Regrouping: 10200->10200 groups
+pins2lts-sym, 759.208: Regrouping took 753.450 real 733.990 user 0.250 sys
+pins2lts-sym, 759.208: state vector length is 500; there are 10200 groups and 500 guards
+pins2lts-sym, 759.208: Creating a multi-core ListDD domain.
+pins2lts-sym, 761.288: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 761.289: got initial state
+pins2lts-sym, 761.896: vrel_add_act not supported; falling back to vrel_add_cpy
+MDD Unique table full, 60678690 of 67108864 buckets filled!
+Event Span: 2740867
+Normalized Event Span: 0.5374249
+Weighted Event Span, moment 1 (WES^1): 0.692
+Event Span: 2740867
+Normalized Event Span: 0.5374249
+Weighted Event Span, moment 1 (WES^1): 0.692
+Event Span: 2740867
+Normalized Event Span: 0.5374249
+Weighted Event Span, moment 1 (WES^1): 0.692
+Exit [1]
+1125.02 user, 2.53 system, 1154.64 elapsed -- Max VSize = 6634152KB, Max RSS = 3910684KB

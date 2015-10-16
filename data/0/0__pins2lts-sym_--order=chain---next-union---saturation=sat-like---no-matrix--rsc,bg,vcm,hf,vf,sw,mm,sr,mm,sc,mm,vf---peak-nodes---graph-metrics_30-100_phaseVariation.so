@@ -1,0 +1,39 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.001: opening /home/meijerjjg/experiments/in/pnml/30-100_phaseVariation.so
+pins2lts-sym, 0.013: library has no initializer
+pins2lts-sym, 0.013: loading model PNML
+pins2lts-sym, 76.370: completed loading model PNML
+pins2lts-sym, 76.370: Initializing regrouping layer
+pins2lts-sym, 77.858: Regroup specification: sc,bg,vcm,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 77.858: Regroup Select Combined matrix
+pins2lts-sym, 78.368: Regroup Bipartite Graph
+pins2lts-sym, 78.368: Regroup ViennaCL's Cuthill McKee
+pins2lts-sym, 212.436: bandwidth: 31876
+pins2lts-sym, 212.436: profile: 828584810
+pins2lts-sym, 212.436: span: 1072484598
+pins2lts-sym, 212.436: average wavefront: 16767
+pins2lts-sym, 212.436: RMS wavefront: 19324
+pins2lts-sym, 212.592: Reqroup Horizontal Flip
+pins2lts-sym, 212.647: Reqroup Vertical Flip
+pins2lts-sym, 212.695: Regroup Select Write matrix
+pins2lts-sym, 212.695: Regroup Matrix Metrics
+pins2lts-sym, 212.973: Regroup Select Read matrix
+pins2lts-sym, 212.973: Regroup Matrix Metrics
+pins2lts-sym, 213.199: Regroup Select Combined matrix
+pins2lts-sym, 213.199: Regroup Matrix Metrics
+pins2lts-sym, 213.485: Reqroup Vertical Flip
+pins2lts-sym, 213.512: Regrouping: 30977->30977 groups
+pins2lts-sym, 216.956: Regrouping took 140.580 real 136.170 user 0.300 sys
+pins2lts-sym, 216.956: state vector length is 2702; there are 30977 groups and 2702 guards
+pins2lts-sym, 216.956: Creating a multi-core ListDD domain.
+pins2lts-sym, 247.629: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 247.630: got initial state
+pins2lts-sym, 256.268: vrel_add_act not supported; falling back to vrel_add_cpy
+Killed [24]
+1787.24 user, 7.21 system, 1853.48 elapsed -- Max VSize = 7269412KB, Max RSS = 4662912KB

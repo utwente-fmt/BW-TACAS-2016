@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.001: opening /home/meijerjjg/experiments/in/pnml/distributeur-01-unfolded-10.so
+pins2lts-sym, 0.300: library has no initializer
+pins2lts-sym, 0.300: loading model PNML
+pins2lts-sym, 1101.277: completed loading model PNML
+pins2lts-sym, 1101.277: Initializing regrouping layer
+pins2lts-sym, 1101.551: Regroup specification: sw,bg,vacm,vf
+pins2lts-sym, 1101.551: Regroup Select Write matrix
+pins2lts-sym, 1101.551: Regroup Bipartite Graph
+pins2lts-sym, 1101.551: Regroup ViennaCL's Advanced Cuthill McKee
+pins2lts-sym, 1127.834: Reqroup Vertical Flip
+pins2lts-sym, 1127.841: Regrouping: 111160->111160 groups
+pins2lts-sym, 1128.521: Regrouping took 27.240 real 26.670 user 0.470 sys
+pins2lts-sym, 1128.521: state vector length is 120; there are 111160 groups and 120 guards
+pins2lts-sym, 1128.521: Creating a multi-core ListDD domain.
+pins2lts-sym, 1137.136: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 1137.136: got initial state
+pins2lts-sym, 1137.734: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1180.241: Exploration took 965957 group checks and 965957 next state calls
+pins2lts-sym, 1180.241: reachability took 43.110 real 42.040 user 0.840 sys
+pins2lts-sym, 1180.241: counting visited states...
+pins2lts-sym, 1180.241: counting took 0.000 real 0.000 user 0.000 sys
+pins2lts-sym, 1180.241: state space has 1.15292150460685e+18 states, 240 nodes
+pins2lts-sym, 1180.294: group_next: 1597040 nodes total
+pins2lts-sym, 1180.294: group_explored: 2053040 nodes, 2904520 short vectors total
+pnml: max token count: 1
+Exit [0]
+1170.52 user, 2.67 system, 1180.42 elapsed -- Max VSize = 9761044KB, Max RSS = 6186912KB

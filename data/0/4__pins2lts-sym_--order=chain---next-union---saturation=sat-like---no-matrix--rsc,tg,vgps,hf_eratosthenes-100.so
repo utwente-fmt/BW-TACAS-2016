@@ -1,0 +1,38 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/eratosthenes-100.so
+pins2lts-sym, 0.004: library has no initializer
+pins2lts-sym, 0.004: loading model PNML
+pins2lts-sym, 0.006: completed loading model PNML
+pins2lts-sym, 0.006: Initializing regrouping layer
+pins2lts-sym, 0.007: Regroup specification: sc,tg,vgps,hf
+pins2lts-sym, 0.007: Regroup Select Combined matrix
+pins2lts-sym, 0.007: Regroup Total graph
+pins2lts-sym, 0.007: Regroup ViennaCL's Gibbs Poole Stockmeyer
+*** segmentation fault ***
+
+Please send information on how to reproduce this problem to: 
+         ltsmin-support@lists.utwente.nl
+along with all output preceding this message.
+In addition, include the following information:
+Package: ltsmin 2.1
+Stack trace:
+  0: /home/meijerjjg/.local/bin/pins2lts-sym(HREprintStack+0x1a) [0x44836a]
+  1: /home/meijerjjg/.local/bin/pins2lts-sym() [0x4483e6]
+  2: /lib/x86_64-linux-gnu/libpthread.so.0(+0x10340) [0x7fa9ce688340]
+  3: /home/meijerjjg/.local/bin/pins2lts-sym(dm_create_permutation_groups+0xbf) [0x4822cf]
+  4: /home/meijerjjg/.local/bin/pins2lts-sym() [0x454fd7]
+  5: /home/meijerjjg/.local/bin/pins2lts-sym() [0x456748]
+  6: /home/meijerjjg/.local/bin/pins2lts-sym(GBregroup+0x1195) [0x4584c5]
+  7: /home/meijerjjg/.local/bin/pins2lts-sym(GBwrapModel+0x26) [0x452ed6]
+  8: /home/meijerjjg/.local/bin/pins2lts-sym(actual_main_CALL+0x1a1) [0x439a81]
+  9: /home/meijerjjg/.local/bin/pins2lts-sym() [0x4d3a67]
+ 10: /lib/x86_64-linux-gnu/libpthread.so.0(+0x8182) [0x7fa9ce680182]
+ 11: /lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7fa9cdb8247d]
+Exit [255]
+0.06 user, 0.01 system, 0.10 elapsed -- Max VSize = 4196KB, Max RSS = 88KB

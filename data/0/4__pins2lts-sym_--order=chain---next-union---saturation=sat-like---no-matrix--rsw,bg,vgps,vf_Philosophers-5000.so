@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/Philosophers-5000.so
+pins2lts-sym, 0.024: library has no initializer
+pins2lts-sym, 0.024: loading model PNML
+pins2lts-sym, 15.505: completed loading model PNML
+pins2lts-sym, 15.506: Initializing regrouping layer
+pins2lts-sym, 27.548: Regroup specification: sw,bg,vgps,vf
+pins2lts-sym, 27.548: Regroup Select Write matrix
+pins2lts-sym, 27.548: Regroup Bipartite Graph
+pins2lts-sym, 27.548: Regroup ViennaCL's Gibbs Poole Stockmeyer
+pins2lts-sym, 32.537: Reqroup Vertical Flip
+pins2lts-sym, 32.719: Regrouping: 25000->25000 groups
+pins2lts-sym, 59.919: Regrouping took 44.410 real 40.740 user 1.790 sys
+pins2lts-sym, 59.919: state vector length is 25000; there are 25000 groups and 25000 guards
+pins2lts-sym, 59.919: Creating a multi-core ListDD domain.
+pins2lts-sym, 324.503: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 324.510: got initial state
+pins2lts-sym, 338.715: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1338.558: Exploration took 74987 group checks and 74987 next state calls
+pins2lts-sym, 1338.558: reachability took 1014.050 real 959.410 user 6.770 sys
+pins2lts-sym, 1338.559: counting visited states...
+pins2lts-sym, 1338.711: counting took 0.150 real 0.150 user 0.010 sys
+pins2lts-sym, 1338.711: state space has 4.03899762978715533e+2385 states, 159974 nodes
+pins2lts-sym, 1338.718: group_next: 160000 nodes total
+pins2lts-sym, 1338.718: group_explored: 220002 nodes, 140000 short vectors total
+pnml: max token count: 1
+Exit [0]
+1266.46 user, 9.46 system, 1339.11 elapsed -- Max VSize = 10336140KB, Max RSS = 7682848KB

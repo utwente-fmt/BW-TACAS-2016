@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/Philosophers-5000.so
+pins2lts-sym, 0.008: library has no initializer
+pins2lts-sym, 0.008: loading model PNML
+pins2lts-sym, 13.943: completed loading model PNML
+pins2lts-sym, 13.943: Initializing regrouping layer
+pins2lts-sym, 25.110: Regroup specification: sc,bg,bs,hf
+pins2lts-sym, 25.110: Regroup Select Combined matrix
+pins2lts-sym, 28.588: Regroup Bipartite Graph
+pins2lts-sym, 28.588: Regroup Boost's Sloan
+pins2lts-sym, 33.056: Reqroup Horizontal Flip
+pins2lts-sym, 33.226: Regrouping: 25000->25000 groups
+pins2lts-sym, 59.303: Regrouping took 45.360 real 42.640 user 1.620 sys
+pins2lts-sym, 59.303: state vector length is 25000; there are 25000 groups and 25000 guards
+pins2lts-sym, 59.303: Creating a multi-core ListDD domain.
+pins2lts-sym, 312.130: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 312.137: got initial state
+pins2lts-sym, 325.392: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1567.860: Exploration took 124954 group checks and 124954 next state calls
+pins2lts-sym, 1567.860: reachability took 1255.720 real 1222.470 user 4.520 sys
+pins2lts-sym, 1567.860: counting visited states...
+pins2lts-sym, 1568.030: counting took 0.180 real 0.170 user 0.000 sys
+pins2lts-sym, 1568.030: state space has 4.03899762978715533e+2385 states, 199968 nodes
+pins2lts-sym, 1568.038: group_next: 160000 nodes total
+pins2lts-sym, 1568.038: group_explored: 220002 nodes, 140000 short vectors total
+pnml: max token count: 1
+Exit [0]
+1521.32 user, 7.09 system, 1568.42 elapsed -- Max VSize = 10336652KB, Max RSS = 7704692KB

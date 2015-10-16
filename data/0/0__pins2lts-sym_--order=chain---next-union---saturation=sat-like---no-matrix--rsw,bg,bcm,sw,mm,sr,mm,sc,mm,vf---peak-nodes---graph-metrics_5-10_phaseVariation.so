@@ -1,0 +1,78 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/5-10_phaseVariation.so
+pins2lts-sym, 0.013: library has no initializer
+pins2lts-sym, 0.013: loading model PNML
+pins2lts-sym, 0.086: completed loading model PNML
+pins2lts-sym, 0.086: Initializing regrouping layer
+pins2lts-sym, 0.087: Regroup specification: sw,bg,bcm,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 0.087: Regroup Select Write matrix
+pins2lts-sym, 0.087: Regroup Bipartite Graph
+pins2lts-sym, 0.087: Regroup Boost's Cuthill McKee
+pins2lts-sym, 0.089: bandwidth: 673
+pins2lts-sym, 0.089: profile: 380089
+pins2lts-sym, 0.090: span: 479759
+pins2lts-sym, 0.124: average wavefront: 304
+pins2lts-sym, 0.134: RMS wavefront: 354
+pins2lts-sym, 0.135: Regroup Select Write matrix
+pins2lts-sym, 0.135: Regroup Matrix Metrics
+pins2lts-sym, 0.136: Regroup Select Read matrix
+pins2lts-sym, 0.136: Regroup Matrix Metrics
+pins2lts-sym, 0.136: Regroup Select Combined matrix
+pins2lts-sym, 0.136: Regroup Matrix Metrics
+pins2lts-sym, 0.136: Reqroup Vertical Flip
+pins2lts-sym, 0.137: Regrouping: 677->677 groups
+pins2lts-sym, 0.139: Regrouping took 0.050 real 0.030 user 0.000 sys
+pins2lts-sym, 0.139: state vector length is 77; there are 677 groups and 77 guards
+pins2lts-sym, 0.139: Creating a multi-core ListDD domain.
+pins2lts-sym, 0.310: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 0.310: got initial state
+pins2lts-sym, 0.956: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1484.481: Exploration took 6093 group checks and 6093 next state calls
+pins2lts-sym, 1484.482: reachability took 1484.170 real 1428.410 user 3.180 sys
+pins2lts-sym, 1484.482: counting visited states...
+pins2lts-sym, 1484.484: counting took 0.000 real 0.000 user 0.000 sys
+pins2lts-sym, 1484.485: state space has 476385615597 states, 43037 nodes
+pins2lts-sym, 1484.485: ( 43037 final BDD nodes; 2554182 peak nodes )
+pins2lts-sym, 1484.487: group_next: 27538 nodes total
+pins2lts-sym, 1484.487: group_explored: 26847 nodes, 135869 short vectors total
+[01;31m****************
+* [0m[1mSYLVAN STATS[0m[01;31m *
+****************
+
+[0m[4mBDD operations count (cache reuse, cache put)
+[0m[01;34m
+[0m[4mLDD operations count (cache reuse)
+[0m[01;34mUnion: 244280855 (85475157)
+RelProd: 45586597 (12984061)
+SatCount: 125023336 (33707270)
+SatCountL: 1358 (752)
+RelProdUnion: 2240849651 (420744274)
+ProjectMinus: 1704759284 (496459360)
+LDD Nodes created: 82212819
+LDD Nodes reused: 275084971
+
+[0m[4mGarbage collection
+[0m[01;34mNumber of GC executions: 1
+Total time spent: 0.926844 sec.
+
+BDD Unique table: 25062926 of 67108864 buckets filled.
+Operation cache: 67108621 of 67108864 buckets filled.
+[01;31m****************[0m 
+pnml: max token count: 25
+Event Span: 31403
+Normalized Event Span: 0.60241
+Weighted Event Span, moment 1 (WES^1): 0.91
+Event Span: 31403
+Normalized Event Span: 0.60241
+Weighted Event Span, moment 1 (WES^1): 0.91
+Event Span: 31403
+Normalized Event Span: 0.60241
+Weighted Event Span, moment 1 (WES^1): 0.91
+Exit [0]
+1428.72 user, 3.36 system, 1484.82 elapsed -- Max VSize = 6601004KB, Max RSS = 3874732KB

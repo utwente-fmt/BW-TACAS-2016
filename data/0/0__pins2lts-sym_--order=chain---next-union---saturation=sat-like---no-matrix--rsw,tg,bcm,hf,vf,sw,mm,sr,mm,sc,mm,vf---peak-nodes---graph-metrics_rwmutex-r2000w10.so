@@ -1,0 +1,111 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/rwmutex-r2000w10.so
+pins2lts-sym, 0.015: library has no initializer
+pins2lts-sym, 0.015: loading model PNML
+pins2lts-sym, 1.202: completed loading model PNML
+pins2lts-sym, 1.202: Initializing regrouping layer
+pins2lts-sym, 1.678: Regroup specification: sw,tg,bcm,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 1.678: Regroup Select Write matrix
+pins2lts-sym, 1.678: Regroup Total graph
+pins2lts-sym, 1.678: Regroup Boost's Cuthill McKee
+pins2lts-sym, 3.170: bandwidth: 45995
+pins2lts-sym, 3.177: profile: 1605608432
+pins2lts-sym, 3.299: span: 1845238882
+pins2lts-sym, 170.441: average wavefront: 8003.6
+pins2lts-sym, 346.893: RMS wavefront: 8606.7
+pins2lts-sym, 347.021: Reqroup Horizontal Flip
+pins2lts-sym, 347.028: Reqroup Vertical Flip
+pins2lts-sym, 347.035: Regroup Select Write matrix
+pins2lts-sym, 347.035: Regroup Matrix Metrics
+pins2lts-sym, 347.118: Regroup Select Read matrix
+pins2lts-sym, 347.118: Regroup Matrix Metrics
+pins2lts-sym, 347.218: Regroup Select Combined matrix
+pins2lts-sym, 347.436: Regroup Matrix Metrics
+pins2lts-sym, 347.437: Reqroup Vertical Flip
+pins2lts-sym, 347.447: Regrouping: 4020->4020 groups
+pins2lts-sym, 348.492: Regrouping took 347.290 real 309.090 user 0.130 sys
+pins2lts-sym, 348.492: state vector length is 6020; there are 4020 groups and 6020 guards
+pins2lts-sym, 348.492: Creating a multi-core ListDD domain.
+pins2lts-sym, 365.990: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 365.992: got initial state
+pins2lts-sym, 367.320: vrel_add_act not supported; falling back to vrel_add_cpy
+*** segmentation fault ***
+
+Please send information on how to reproduce this problem to: 
+         ltsmin-support@lists.utwente.nl
+along with all output preceding this message.
+In addition, include the following information:
+Package: ltsmin 2.1
+Stack trace:
+  0: /home/meijerjjg/.local/stats/bin/pins2lts-sym(HREprintStack+0x1a) [0x44839a]
+  1: /home/meijerjjg/.local/stats/bin/pins2lts-sym() [0x448416]
+  2: /lib/x86_64-linux-gnu/libpthread.so.0(+0x10340) [0x7fc7b3b38340]
+  3: /lib/x86_64-linux-gnu/libc.so.6(+0x9814e) [0x7fc7b2fd014e]
+  4: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x35b) [0x4f087b]
+  5: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+  6: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+  7: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+  8: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+  9: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 10: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 11: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 12: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 13: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 14: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 15: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 16: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 17: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 18: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 19: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 20: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 21: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 22: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 23: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 24: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 25: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 26: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 27: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 28: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 29: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 30: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 31: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 32: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 33: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 34: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 35: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 36: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 37: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 38: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 39: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 40: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 41: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 42: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 43: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 44: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 45: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 46: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 47: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 48: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 49: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 50: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 51: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 52: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 53: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 54: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 55: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 56: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 57: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 58: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 59: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 60: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 61: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 62: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+ 63: /home/meijerjjg/.local/stats/bin/pins2lts-sym(lddmc_collect_CALL+0x14a) [0x4f066a]
+Exit [255]
+325.85 user, 1.18 system, 367.42 elapsed -- Max VSize = 6707136KB, Max RSS = 3171488KB

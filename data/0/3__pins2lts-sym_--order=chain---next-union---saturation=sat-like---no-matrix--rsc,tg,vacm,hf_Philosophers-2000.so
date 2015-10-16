@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.010: opening /home/meijerjjg/experiments/in/pnml/Philosophers-2000.so
+pins2lts-sym, 0.020: library has no initializer
+pins2lts-sym, 0.020: loading model PNML
+pins2lts-sym, 2.173: completed loading model PNML
+pins2lts-sym, 2.174: Initializing regrouping layer
+pins2lts-sym, 3.877: Regroup specification: sc,tg,vacm,hf
+pins2lts-sym, 3.877: Regroup Select Combined matrix
+pins2lts-sym, 4.465: Regroup Total graph
+pins2lts-sym, 4.465: Regroup ViennaCL's Advanced Cuthill McKee
+pins2lts-sym, 604.788: Reqroup Horizontal Flip
+pins2lts-sym, 604.816: Regrouping: 10000->10000 groups
+pins2lts-sym, 608.951: Regrouping took 606.780 real 590.380 user 5.650 sys
+pins2lts-sym, 608.951: state vector length is 10000; there are 10000 groups and 10000 guards
+pins2lts-sym, 608.951: Creating a multi-core ListDD domain.
+pins2lts-sym, 645.619: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 645.621: got initial state
+pins2lts-sym, 647.815: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 772.209: Exploration took 30000 group checks and 30000 next state calls
+pins2lts-sym, 772.209: reachability took 126.590 real 121.430 user 0.730 sys
+pins2lts-sym, 772.209: counting visited states...
+pins2lts-sym, 772.259: counting took 0.050 real 0.050 user 0.000 sys
+pins2lts-sym, 772.259: state space has 1.74787125172265161e+954 states, 63982 nodes
+pins2lts-sym, 772.262: group_next: 64000 nodes total
+pins2lts-sym, 772.262: group_explored: 88002 nodes, 56000 short vectors total
+pnml: max token count: 1
+Exit [0]
+749.58 user, 6.68 system, 772.42 elapsed -- Max VSize = 7207492KB, Max RSS = 3983884KB

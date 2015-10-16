@@ -1,0 +1,39 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/2D8_gradient_30x30_100.so
+pins2lts-sym, 0.027: library has no initializer
+pins2lts-sym, 0.028: loading model PNML
+pins2lts-sym, 0.530: completed loading model PNML
+pins2lts-sym, 0.530: Initializing regrouping layer
+pins2lts-sym, 0.639: Regroup specification: sc,tg,vcm,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 0.639: Regroup Select Combined matrix
+pins2lts-sym, 0.674: Regroup Total graph
+pins2lts-sym, 0.674: Regroup ViennaCL's Cuthill McKee
+pins2lts-sym, 26.043: bandwidth: 1254
+pins2lts-sym, 26.043: profile: 15033764
+pins2lts-sym, 26.043: span: 20800171
+pins2lts-sym, 26.043: average wavefront: 606.21
+pins2lts-sym, 26.043: RMS wavefront: 644.53
+pins2lts-sym, 26.070: Reqroup Horizontal Flip
+pins2lts-sym, 26.072: Reqroup Vertical Flip
+pins2lts-sym, 26.074: Regroup Select Write matrix
+pins2lts-sym, 26.074: Regroup Matrix Metrics
+pins2lts-sym, 26.115: Regroup Select Read matrix
+pins2lts-sym, 26.115: Regroup Matrix Metrics
+pins2lts-sym, 26.155: Regroup Select Combined matrix
+pins2lts-sym, 26.155: Regroup Matrix Metrics
+pins2lts-sym, 26.222: Reqroup Vertical Flip
+pins2lts-sym, 26.225: Regrouping: 6844->6844 groups
+pins2lts-sym, 26.484: Regrouping took 25.960 real 24.510 user 0.040 sys
+pins2lts-sym, 26.484: state vector length is 900; there are 6844 groups and 900 guards
+pins2lts-sym, 26.484: Creating a multi-core ListDD domain.
+pins2lts-sym, 28.629: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 28.629: got initial state
+pins2lts-sym, 29.925: vrel_add_act not supported; falling back to vrel_add_cpy
+Killed [24]
+1784.33 user, 12.71 system, 1842.69 elapsed -- Max VSize = 6620284KB, Max RSS = 3996628KB

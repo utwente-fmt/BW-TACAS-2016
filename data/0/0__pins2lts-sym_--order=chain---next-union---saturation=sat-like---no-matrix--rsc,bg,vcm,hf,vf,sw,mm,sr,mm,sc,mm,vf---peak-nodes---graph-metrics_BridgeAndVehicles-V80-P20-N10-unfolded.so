@@ -1,0 +1,39 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/BridgeAndVehicles-V80-P20-N10-unfolded.so
+pins2lts-sym, 0.003: library has no initializer
+pins2lts-sym, 0.003: loading model PNML
+pins2lts-sym, 0.269: completed loading model PNML
+pins2lts-sym, 0.269: Initializing regrouping layer
+pins2lts-sym, 0.277: Regroup specification: sc,bg,vcm,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 0.277: Regroup Select Combined matrix
+pins2lts-sym, 0.279: Regroup Bipartite Graph
+pins2lts-sym, 0.279: Regroup ViennaCL's Cuthill McKee
+pins2lts-sym, 0.669: bandwidth: 2025
+pins2lts-sym, 0.669: profile: 3311564
+pins2lts-sym, 0.669: span: 4458160
+pins2lts-sym, 0.669: average wavefront: 975.6
+pins2lts-sym, 0.669: RMS wavefront: 1151
+pins2lts-sym, 0.674: Reqroup Horizontal Flip
+pins2lts-sym, 0.674: Reqroup Vertical Flip
+pins2lts-sym, 0.674: Regroup Select Write matrix
+pins2lts-sym, 0.674: Regroup Matrix Metrics
+pins2lts-sym, 0.675: Regroup Select Read matrix
+pins2lts-sym, 0.675: Regroup Matrix Metrics
+pins2lts-sym, 0.676: Regroup Select Combined matrix
+pins2lts-sym, 0.676: Regroup Matrix Metrics
+pins2lts-sym, 0.677: Reqroup Vertical Flip
+pins2lts-sym, 0.677: Regrouping: 2108->2108 groups
+pins2lts-sym, 0.694: Regrouping took 0.420 real 0.420 user 0.010 sys
+pins2lts-sym, 0.695: state vector length is 188; there are 2108 groups and 188 guards
+pins2lts-sym, 0.695: Creating a multi-core ListDD domain.
+pins2lts-sym, 1.139: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 1.139: got initial state
+pins2lts-sym, 1.909: vrel_add_act not supported; falling back to vrel_add_cpy
+Killed [24]
+1796.90 user, 1.15 system, 1801.73 elapsed -- Max VSize = 6602468KB, Max RSS = 3013248KB

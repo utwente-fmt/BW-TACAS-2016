@@ -1,0 +1,39 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/CircularTrain-768.so
+pins2lts-sym, 0.007: library has no initializer
+pins2lts-sym, 0.007: loading model PNML
+pins2lts-sym, 0.026: completed loading model PNML
+pins2lts-sym, 0.026: Initializing regrouping layer
+pins2lts-sym, 0.048: Regroup specification: sc,bg,vcm,hf,vf,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 0.048: Regroup Select Combined matrix
+pins2lts-sym, 0.055: Regroup Bipartite Graph
+pins2lts-sym, 0.055: Regroup ViennaCL's Cuthill McKee
+pins2lts-sym, 0.147: bandwidth: 8
+pins2lts-sym, 0.147: profile: 17926
+pins2lts-sym, 0.147: span: 25676
+pins2lts-sym, 0.147: average wavefront: 6.983
+pins2lts-sym, 0.147: RMS wavefront: 7.093
+pins2lts-sym, 0.149: Reqroup Horizontal Flip
+pins2lts-sym, 0.149: Reqroup Vertical Flip
+pins2lts-sym, 0.150: Regroup Select Write matrix
+pins2lts-sym, 0.150: Regroup Matrix Metrics
+pins2lts-sym, 0.157: Regroup Select Read matrix
+pins2lts-sym, 0.157: Regroup Matrix Metrics
+pins2lts-sym, 0.164: Regroup Select Combined matrix
+pins2lts-sym, 0.164: Regroup Matrix Metrics
+pins2lts-sym, 0.170: Reqroup Vertical Flip
+pins2lts-sym, 0.171: Regrouping: 768->768 groups
+pins2lts-sym, 0.221: Regrouping took 0.200 real 0.190 user 0.000 sys
+pins2lts-sym, 0.221: state vector length is 1536; there are 768 groups and 1536 guards
+pins2lts-sym, 0.221: Creating a multi-core ListDD domain.
+pins2lts-sym, 0.804: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 0.804: got initial state
+pins2lts-sym, 1.552: vrel_add_act not supported; falling back to vrel_add_cpy
+Killed [24]
+1792.90 user, 1.44 system, 1844.53 elapsed -- Max VSize = 6602956KB, Max RSS = 3373268KB

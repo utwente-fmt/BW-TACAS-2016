@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/angiogenesis-10.so
+pins2lts-sym, 0.018: library has no initializer
+pins2lts-sym, 0.018: loading model PNML
+pins2lts-sym, 0.018: completed loading model PNML
+pins2lts-sym, 0.018: Initializing regrouping layer
+pins2lts-sym, 0.018: Regroup specification: sw,bg,vgps,hf
+pins2lts-sym, 0.018: Regroup Select Write matrix
+pins2lts-sym, 0.018: Regroup Bipartite Graph
+pins2lts-sym, 0.018: Regroup ViennaCL's Gibbs Poole Stockmeyer
+pins2lts-sym, 0.019: Reqroup Horizontal Flip
+pins2lts-sym, 0.019: Regrouping: 64->64 groups
+pins2lts-sym, 0.019: Regrouping took 0.000 real 0.000 user 0.000 sys
+pins2lts-sym, 0.019: state vector length is 39; there are 64 groups and 39 guards
+pins2lts-sym, 0.019: Creating a multi-core ListDD domain.
+pins2lts-sym, 0.214: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 0.214: got initial state
+pins2lts-sym, 0.513: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 305.346: Exploration took 6232 group checks and 6232 next state calls
+pins2lts-sym, 305.346: reachability took 305.130 real 288.820 user 0.840 sys
+pins2lts-sym, 305.346: counting visited states...
+pins2lts-sym, 305.460: counting took 0.120 real 0.110 user 0.000 sys
+pins2lts-sym, 305.460: state space has 822645885495 states, 309510 nodes
+pins2lts-sym, 305.461: group_next: 9730 nodes total
+pins2lts-sym, 305.461: group_explored: 8060 nodes, 21446 short vectors total
+pnml: max token count: 10
+Exit [0]
+288.94 user, 1.02 system, 305.57 elapsed -- Max VSize = 6599816KB, Max RSS = 3318884KB

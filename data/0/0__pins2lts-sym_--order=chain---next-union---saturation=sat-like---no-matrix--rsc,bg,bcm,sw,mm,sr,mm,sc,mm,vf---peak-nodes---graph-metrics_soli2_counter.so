@@ -1,0 +1,47 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/soli2_counter.so
+pins2lts-sym, 0.003: library has no initializer
+pins2lts-sym, 0.003: loading model PNML
+pins2lts-sym, 0.004: completed loading model PNML
+pins2lts-sym, 0.004: Initializing regrouping layer
+pins2lts-sym, 0.004: Regroup specification: sc,bg,bcm,sw,mm,sr,mm,sc,mm,vf
+pins2lts-sym, 0.004: Regroup Select Combined matrix
+pins2lts-sym, 0.004: Regroup Bipartite Graph
+pins2lts-sym, 0.004: Regroup Boost's Cuthill McKee
+pins2lts-sym, 0.005: bandwidth: 107
+pins2lts-sym, 0.005: profile: 14933
+pins2lts-sym, 0.005: span: 14948
+pins2lts-sym, 0.005: average wavefront: 48.4
+pins2lts-sym, 0.006: RMS wavefront: 55.7
+pins2lts-sym, 0.006: Regroup Select Write matrix
+pins2lts-sym, 0.006: Regroup Matrix Metrics
+pins2lts-sym, 0.006: Regroup Select Read matrix
+pins2lts-sym, 0.006: Regroup Matrix Metrics
+pins2lts-sym, 0.006: Regroup Select Combined matrix
+pins2lts-sym, 0.006: Regroup Matrix Metrics
+pins2lts-sym, 0.007: Reqroup Vertical Flip
+pins2lts-sym, 0.007: Regrouping: 92->92 groups
+pins2lts-sym, 0.007: Regrouping took 0.000 real 0.000 user 0.000 sys
+pins2lts-sym, 0.007: state vector length is 75; there are 92 groups and 75 guards
+pins2lts-sym, 0.007: Creating a multi-core ListDD domain.
+pins2lts-sym, 0.172: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 0.172: got initial state
+pins2lts-sym, 0.358: vrel_add_act not supported; falling back to vrel_add_cpy
+MDD Unique table full, 59892893 of 67108864 buckets filled!
+Event Span: 4096
+Normalized Event Span: 0.5936
+Weighted Event Span, moment 1 (WES^1): 0.91
+Event Span: 4096
+Normalized Event Span: 0.5936
+Weighted Event Span, moment 1 (WES^1): 0.91
+Event Span: 4096
+Normalized Event Span: 0.5936
+Weighted Event Span, moment 1 (WES^1): 0.91
+Exit [1]
+594.98 user, 6.37 system, 602.76 elapsed -- Max VSize = 6600856KB, Max RSS = 3941592KB

@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.002: opening /home/meijerjjg/experiments/in/pnml/2D8_gradient_40x40_10.so
+pins2lts-sym, 0.004: library has no initializer
+pins2lts-sym, 0.004: loading model PNML
+pins2lts-sym, 1.383: completed loading model PNML
+pins2lts-sym, 1.383: Initializing regrouping layer
+pins2lts-sym, 1.737: Regroup specification: sc,tg,vacm,vf
+pins2lts-sym, 1.737: Regroup Select Combined matrix
+pins2lts-sym, 1.854: Regroup Total graph
+pins2lts-sym, 1.854: Regroup ViennaCL's Advanced Cuthill McKee
+pins2lts-sym, 185.828: Reqroup Vertical Flip
+pins2lts-sym, 185.835: Regrouping: 12324->12324 groups
+pins2lts-sym, 186.616: Regrouping took 185.230 real 182.720 user 1.730 sys
+pins2lts-sym, 186.616: state vector length is 1600; there are 12324 groups and 1600 guards
+pins2lts-sym, 186.616: Creating a multi-core ListDD domain.
+pins2lts-sym, 192.231: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 192.232: got initial state
+pins2lts-sym, 194.038: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 460.059: Exploration took 135358 group checks and 135358 next state calls
+pins2lts-sym, 460.060: reachability took 267.820 real 265.000 user 0.790 sys
+pins2lts-sym, 460.060: counting visited states...
+pins2lts-sym, 460.091: counting took 0.040 real 0.030 user 0.000 sys
+pins2lts-sym, 460.091: state space has 3.11621362935612e+25 states, 105490 nodes
+pins2lts-sym, 460.123: group_next: 1047540 nodes total
+pins2lts-sym, 460.123: group_explored: 948948 nodes, 813384 short vectors total
+pnml: max token count: 10
+Exit [0]
+454.58 user, 2.74 system, 460.23 elapsed -- Max VSize = 6728252KB, Max RSS = 3552112KB

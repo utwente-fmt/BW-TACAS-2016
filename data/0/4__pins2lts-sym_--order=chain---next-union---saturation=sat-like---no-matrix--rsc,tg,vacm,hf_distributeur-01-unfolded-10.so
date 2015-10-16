@@ -1,0 +1,34 @@
+Initializing Lace, 1 workers.
+Lace startup, creating 1 worker threads with program stack 8388608 bytes.
+pins2lts-sym, 0.000: Exploration order is chain
+pins2lts-sym, 0.000: Saturation strategy is sat-like
+pins2lts-sym, 0.000: Guided search strategy is unguided
+pins2lts-sym, 0.000: Attractor strategy is default
+pins2lts-sym, 0.000: Registering PINS so language module
+pins2lts-sym, 0.001: opening /home/meijerjjg/experiments/in/pnml/distributeur-01-unfolded-10.so
+pins2lts-sym, 0.300: library has no initializer
+pins2lts-sym, 0.300: loading model PNML
+pins2lts-sym, 1063.956: completed loading model PNML
+pins2lts-sym, 1063.957: Initializing regrouping layer
+pins2lts-sym, 1064.370: Regroup specification: sc,tg,vacm,hf
+pins2lts-sym, 1064.370: Regroup Select Combined matrix
+pins2lts-sym, 1064.502: Regroup Total graph
+pins2lts-sym, 1064.502: Regroup ViennaCL's Advanced Cuthill McKee
+pins2lts-sym, 1159.477: Reqroup Horizontal Flip
+pins2lts-sym, 1159.487: Regrouping: 111160->111160 groups
+pins2lts-sym, 1160.170: Regrouping took 96.220 real 90.440 user 1.240 sys
+pins2lts-sym, 1160.170: state vector length is 120; there are 111160 groups and 120 guards
+pins2lts-sym, 1160.170: Creating a multi-core ListDD domain.
+pins2lts-sym, 1165.745: Using GBgetTransitionsShort as next-state function
+pins2lts-sym, 1165.745: got initial state
+pins2lts-sym, 1166.836: vrel_add_act not supported; falling back to vrel_add_cpy
+pins2lts-sym, 1285.328: Exploration took 669654 group checks and 669654 next state calls
+pins2lts-sym, 1285.328: reachability took 119.580 real 113.810 user 1.020 sys
+pins2lts-sym, 1285.328: counting visited states...
+pins2lts-sym, 1285.328: counting took 0.000 real 0.000 user 0.000 sys
+pins2lts-sym, 1285.328: state space has 1.15292150460685e+18 states, 240 nodes
+pins2lts-sym, 1285.378: group_next: 1597040 nodes total
+pins2lts-sym, 1285.378: group_explored: 2053040 nodes, 2904520 short vectors total
+pnml: max token count: 1
+Exit [0]
+1238.16 user, 6.23 system, 1285.66 elapsed -- Max VSize = 9761044KB, Max RSS = 6055452KB
