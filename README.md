@@ -62,7 +62,7 @@ The command lines in `statistics.txt` and `performance.txt` show several options
 - `--lddmc-maxtablesize=26`: don't increase the node table beyond 2^26 elements
 - `--order=chain`: use chaining for grouped transitions
 - `--next-union`: perform the identity on transition relations
-- `--saturation=sat-like`: use the sat-like strategry
+- `--saturation=sat-like`: use the sat-like strategy
 - `--no-matrix`: don't print the dependency matrix
 - `--peak-nodes`: measure peak nodes (used for statistics)
 - `--graph-metrics`: Print the graph metrics from Boost and ViennaCL (used for statistics)
@@ -121,7 +121,7 @@ To convert all LTSmin output to a `csv` file, run: `sh ltsmin2csv.sh data/0 > my
 __This can take a very long time__, since all files have to be parsed with `awk` and `grep`.
 When completed, the above mentioned Rscript can be run on `my-data.csv`.
 
-3. Dependency matrix 2 scatter plot
+3. Dependency matrix to scatter plot
 -
 LTSmin can print the dependency matrix to stdout. For larger matrices these are not human readable. We offer scripts that can convert dependency matrices to scatter plots, with R. These scatter plots *are* human readable.
 
