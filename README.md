@@ -90,7 +90,7 @@ The value `<regroup-option>` is a sequence of transformations/operations on the 
 Miscellaneous
 --
 
-- The running example in our paper, is in the file `example.pnml`. To obtain the same permuted matrix use `pnml2pins example.pnml && pins2lts-sym example.so  --row-perm=1,2,0,5,3,4 --col-perm=1,2,3,4,0 --matrix`.
+- The running example in our paper, is in the file `example.pnml`. To obtain the same permuted matrix (and metrics) use `pnml2pins example.pnml && pins2lts-sym example.so --row-perm=1,2,0,5,3,4 --col-perm=1,2,3,4,0 --matrix -rmm`.
 - To reorder dependency matrices using the Approximate Minimum Degree algorithm, checkout the tag: https://github.com/Meijuh/ltsmin/releases/tag/BW-TACAS-2016-SuiteSparse and supply the option `-rsamd` to `pins2lts-sym`. In this tag, autoconf does not warn if SuiteSparse is not installed. Thus before compiling this LTSmin tag, make sure to have installed SuiteSparse.
 - The files `pnml/TokenRing-50-unfolded.pnml`, `pnml/galloc_res-5.pnml`, `pnml/shared_memory-pt-200.pnml`, `pnml/distributeur-01-unfolded-10.pnml` are too large to put in this git repository, if needed download them manually from: http://mcc.lip6.fr/models.php.
 
