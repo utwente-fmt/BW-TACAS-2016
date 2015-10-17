@@ -55,7 +55,7 @@ The command lines in `statistics.txt` and `performance.txt` show several options
 
 - `--when`: print timestamps
 - `--vset=lddmc`: use the LDDMC package for decision diagrams
-- `--lace-workers`: run with 1 thread
+- `--lace-workers=1`: run with 1 thread
 - `--lddmc-cachesize=26`: use an operation cache with 2^26 elements
 - `--lddmc-tablesize=26`: use a node table with 2^26 elements
 - `--lddmc-maxcachesize=26`: don't increase the operation cache beyond 2^26 elements
