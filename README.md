@@ -23,7 +23,7 @@ The requirements for reproducing our experiments are the following.
 Installing LTSmin
 --
 Manual installation instructions can be found at http://fmt.cs.utwente.nl/tools/ltsmin. Additionally, for the TACAS 2016 submission, LTSmin requires two extra dependencies; Boost and ViennaCL. Make sure to check out our specific LTSmin *tag* for the TACAS 2016 submission: https://github.com/Meijuh/ltsmin/releases/tag/BW-TACAS-2016.
-Also make sure to provide the option `--recursive` to `git --clone`. After cloning the repository be sure to checkout our *tag*: `git checkout tags/BW-TACAS-2016`. The dependencies should be automatically recognized by autoconf, when installed.
+Also make sure to provide the option `--recursive` to `git clone`. After cloning the repository be sure to checkout our *tag*: `git checkout tags/BW-TACAS-2016`. The dependencies should be automatically recognized by autoconf, when installed.
 
 pnml2pins
 ---
