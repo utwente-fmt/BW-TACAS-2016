@@ -2,7 +2,7 @@ Bandwidth and Wavefront Reduction for Static Variable Ordering in Symbolic Model
 ================
 Instructions for installing LTSmin and replicating the experiments reported in our TACAS 2016 submission.
 
-__Warning__: this is a large repository to check out. It contains ~2GB of raw uncrompressed data from our benchmark and 361 Petri net models in `pnml` format, from the 2015 model checking contest: http://mcc.lip6.fr.
+__Warning__: this is a large repository to check out. It contains ~2GB of raw uncompressed data from our benchmark and 361 Petri net models in `pnml` format, from the 2015 model checking contest: http://mcc.lip6.fr.
 
 This readme first instructs how to replicate experiments, then it shows how to perform the data analysis on our benchmarks. The third section in this readme contains instructions for converting dependency matrices into scatter plots, to make them human readable.
 
@@ -23,7 +23,7 @@ The requirements for reproducing our experiments are the following.
 Installing LTSmin
 --
 Manual installation instructions can be found at http://fmt.cs.utwente.nl/tools/ltsmin. Additionally, for the TACAS 2016 submission, LTSmin requires two extra dependencies; Boost and ViennaCL. The dependencies should be automatically recognized by autoconf, when installed. Make sure to check out our specific LTSmin *tag* for the TACAS 2016 submission: https://github.com/Meijuh/ltsmin/releases/tag/BW-TACAS-2016.
-Also make sure to provide the option `--recursive` to `git clone`. After cloning the repository be sure to checkout our *tag*: `git checkout tags/BW-TACAS-2016`.
+Also make sure to provide the option `--recursive` to `git clone`. After cloning the repository be sure to checkout our *tag*: `git checkout tags/BW-TACAS-2016` and update the submodules: `git submodule update`.
 
 pnml2pins
 ---
@@ -137,5 +137,5 @@ To obtain a human readable dependency matrix of, say Vasy2003.pnml, perform the 
 
 1. Download `pnml/Vasy2003.pnml`, `mtrx2csv` and `csv2mtrx.r`. Make sure `mtrx2csv` is executable (`chmod +x mtrx2csv`).
 2. Convert the Petri net to a shared library: `pnml2pins Vasy2003.pnml`.
-3. To generate the matrix, convert it to CSV with coordinates and then to pdf, run `pins2lts-sym Vasy2003.so --matrix | sh mtrx2csv | Rscript csv2mtrx.r Vasy2003-matrix`. This produces `Vasy2003-matrix.pdf` and can be viewed with a PDF viewer.
-4. To generate a reordered matrix, say, with Boost's Sloan implementation, run `pins2lts-sym Vasy2003.so --matrix -rbs | sh mtrx2csv | Rscript csv2mtrx.r Vasy2003-matrix-bs`.
+3. To generate the matrix, convert it to CSV with coordinates and then to pdf, run `pins2lts-sym Vasy2003.so --matrix | bash mtrx2csv | Rscript csv2mtrx.r Vasy2003-matrix`. This produces `Vasy2003-matrix.pdf` and can be viewed with a PDF viewer.
+4. To generate a reordered matrix, say, with Boost's Sloan implementation, run `pins2lts-sym Vasy2003.so --matrix -rbs | bash mtrx2csv | Rscript csv2mtrx.r Vasy2003-matrix-bs`.
